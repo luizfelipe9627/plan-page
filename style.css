@@ -191,6 +191,10 @@ body {
 
 @media (max-width: 600px) {
 
+    body {
+        background-image: url(https://luizfelipe9627.github.io/plan-page/images/fundo.jpg);
+    }
+    
     .basico, .padrao{
         padding-bottom: 50px;
     }
