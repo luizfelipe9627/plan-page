@@ -1,0 +1,201 @@
+* {
+    box-sizing: content-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://luizfelipe9627.github.io/plan-page/images/fundo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.planos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.basico {
+    display:block;
+    width: 300px;
+    height: 450px;
+    padding-right: 10px;
+}
+
+.titulo_top1 {
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 3px solid #6AC075;
+    color: #62C268;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.valor1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #62C268;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.area_botao1 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid #6AC075;
+}
+
+.botao1 {
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #62C268;
+    color: #62C268;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.botao1:hover {
+    background-color: #62C268;
+    color: white;
+    font-size: 17px;
+}
+
+.padrao {
+    width: 300px;
+    height: 450px;
+    padding-right: 10px;
+}
+
+.titulo_top2 {
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 3px solid #575698;
+    color: #575698;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.valor2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #575698;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.area_botao2 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid #575698;
+}
+
+.botao2 {
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #575698;
+    color: #575698;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.botao2:hover {
+    background-color: #575698;
+    color: white;
+    font-size: 17px;
+}
+
+.premio {
+    width: 300px;
+    height: 450px;
+    padding-right: 10px;
+}
+
+.titulo_top3 {
+    font-size: 25px;
+    font-weight: bold;
+    border-top: 3px solid #1E81D4;
+    color: #1E81D4;
+    background-color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.valor3 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #1E81D4;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.area_botao3 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid #1E81D4;
+}
+
+.botao3 {
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #1E81D4;
+    color: #1E81D4;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+.botao3:hover {
+    background-color: #1E81D4;
+    color: white;
+    font-size: 17px;
+}
+
+.descricao {
+    color: rgb(27, 27, 27);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.descricao:nth-child(2n+1) {
+    background-color: #F7F7F7;
+}
+
+.descricao:nth-child(2n) {
+    background-color: #FFFFFF
+}
+
+.planos a {
+    text-decoration: none;
+}
+
+@media (max-width: 600px) {
+
+    .basico, .padrao{
+        padding-bottom: 50px;
+    }
+
+    .premio {
+        padding-bottom: 100px;
+    }
+}
