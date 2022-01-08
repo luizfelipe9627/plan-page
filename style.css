@@ -7,6 +7,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*
+    CSS FUNDO ↴
+*/
+
 body {
     margin: 0;
     padding: 0;
@@ -50,11 +54,9 @@ article .premio {
     padding-right: 10px;
 }
 
-
 /*
     CSS ÁREA PLANOS TITULO ↴
 */
-
 
 article .titulo_top1 {
     font-size: 25px;
@@ -93,7 +95,6 @@ article .titulo_top3 {
     CSS ÁREA PLANO VALORES ↴
 */
 
-
 article .valor1 {
     color: white;
     font-size: 25px;
@@ -124,7 +125,6 @@ article .valor3 {
 /*
     CSS ÁREA BOTÕES ↴
 */ 
-
 
 article .area_botao1 {
     background-color: white;
@@ -198,11 +198,9 @@ article .botao3:hover {
     font-size: 17px;
 }
 
-
 /*
     CSS ÁREA DESCRIÇÃO ↴
 */ 
-
 
 article .descricao {
     color: rgb(27, 27, 27);
@@ -219,18 +217,15 @@ article .descricao:nth-child(2n) {
     background-color: #FFFFFF
 }
 
-
 /*
     CSS ÁREA RESPONSIVA ↴
 */ 
-
 
 @media (max-width: 600px) {
 
     /*
     CSS ÁREA PLANOS ↴
     */
-
 
     article .basico, .padrao{
         padding-bottom: 50px;
