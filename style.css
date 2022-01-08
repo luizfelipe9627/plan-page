@@ -1,5 +1,5 @@
 /*
-    CSS GERAL ↴
+    GERAL ↴
 */
 
 * {
@@ -8,7 +8,7 @@
 }
 
 /*
-    CSS FUNDO ↴
+    FUNDO ↴
 */
 
 body {
@@ -20,7 +20,7 @@ body {
 }
 
 /*
-    CSS ÁREA PLANOS ↴
+    ÁREA PLANOS ↴
 */
 
 article .planos {
@@ -55,7 +55,7 @@ article .premio {
 }
 
 /*
-    CSS ÁREA PLANOS TITULO ↴
+    ÁREA PLANOS TITULO ↴
 */
 
 article .titulo_top1 {
@@ -92,7 +92,7 @@ article .titulo_top3 {
 }
 
 /*
-    CSS ÁREA PLANO VALORES ↴
+    ÁREA PLANO VALORES ↴
 */
 
 article .valor1 {
@@ -123,7 +123,7 @@ article .valor3 {
 }
 
 /*
-    CSS ÁREA BOTÕES ↴
+    ÁREA BOTÕES ↴
 */ 
 
 article .area_botao1 {
@@ -199,7 +199,7 @@ article .botao3:hover {
 }
 
 /*
-    CSS ÁREA DESCRIÇÃO ↴
+    ÁREA DESCRIÇÃO ↴
 */ 
 
 article .descricao {
@@ -218,13 +218,13 @@ article .descricao:nth-child(2n) {
 }
 
 /*
-    CSS ÁREA RESPONSIVA ↴
+    ÁREA RESPONSIVA ↴
 */ 
 
 @media (max-width: 600px) {
 
     /*
-    CSS ÁREA PLANOS ↴
+        ÁREA PLANOS ↴
     */
 
     article .basico, .padrao{
