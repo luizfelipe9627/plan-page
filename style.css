@@ -1,3 +1,7 @@
+/*
+    CSS GERAL ↴
+*/
+
 * {
     box-sizing: content-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -11,7 +15,11 @@ body {
     background-position: center;
 }
 
-.planos {
+/*
+    CSS ÁREA PLANOS ↴
+*/
+
+article .planos {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -19,14 +27,36 @@ body {
     text-align: center;
 }
 
-.basico {
+article .planos a {
+    text-decoration: none;
+}
+
+article .basico {
     display:block;
     width: 300px;
     height: 450px;
     padding-right: 10px;
 }
 
-.titulo_top1 {
+article .padrao {
+    width: 300px;
+    height: 450px;
+    padding-right: 10px;
+}
+
+article .premio {
+    width: 300px;
+    height: 450px;
+    padding-right: 10px;
+}
+
+
+/*
+    CSS ÁREA PLANOS TITULO ↴
+*/
+
+
+article .titulo_top1 {
     font-size: 25px;
     font-weight: bold;
     border-top: 3px solid #6AC075;
@@ -37,46 +67,7 @@ body {
     padding-bottom: 20px;
 }
 
-.valor1 {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: #62C268;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.area_botao1 {
-    background-color: white;
-    width: 300px;
-    height: 80px;
-    padding-top: 30px;
-    border-bottom: 3px solid #6AC075;
-}
-
-.botao1 {
-    border-radius: 5px;
-    padding: 8px;
-    width: 80px;
-    border: 2px solid #62C268;
-    color: #62C268;
-    margin-left: 100px;
-    font-weight: bold;
-}
-
-.botao1:hover {
-    background-color: #62C268;
-    color: white;
-    font-size: 17px;
-}
-
-.padrao {
-    width: 300px;
-    height: 450px;
-    padding-right: 10px;
-}
-
-.titulo_top2 {
+article .titulo_top2 {
     font-size: 25px;
     font-weight: bold;
     border-top: 3px solid #575698;
@@ -87,46 +78,7 @@ body {
     padding-bottom: 20px;
 }
 
-.valor2 {
-    color: white;
-    font-size: 25px;
-    font-weight: bold;
-    background-color: #575698;
-    padding-top: 7px;
-    padding-bottom: 7px;
-}
-
-.area_botao2 {
-    background-color: white;
-    width: 300px;
-    height: 80px;
-    padding-top: 30px;
-    border-bottom: 3px solid #575698;
-}
-
-.botao2 {
-    border-radius: 5px;
-    padding: 8px;
-    width: 80px;
-    border: 2px solid #575698;
-    color: #575698;
-    margin-left: 100px;
-    font-weight: bold;
-}
-
-.botao2:hover {
-    background-color: #575698;
-    color: white;
-    font-size: 17px;
-}
-
-.premio {
-    width: 300px;
-    height: 450px;
-    padding-right: 10px;
-}
-
-.titulo_top3 {
+article .titulo_top3 {
     font-size: 25px;
     font-weight: bold;
     border-top: 3px solid #1E81D4;
@@ -137,7 +89,30 @@ body {
     padding-bottom: 20px;
 }
 
-.valor3 {
+/*
+    CSS ÁREA PLANO VALORES ↴
+*/
+
+
+article .valor1 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #62C268;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+article .valor2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #575698;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+article .valor3 {
     color: white;
     font-size: 25px;
     font-weight: bold;
@@ -146,7 +121,60 @@ body {
     padding-bottom: 7px;
 }
 
-.area_botao3 {
+/*
+    CSS ÁREA BOTÕES ↴
+*/ 
+
+
+article .area_botao1 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid #6AC075;
+}
+
+article .botao1 {
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #62C268;
+    color: #62C268;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+article .botao1:hover {
+    background-color: #62C268;
+    color: white;
+    font-size: 17px;
+}
+
+article .area_botao2 {
+    background-color: white;
+    width: 300px;
+    height: 80px;
+    padding-top: 30px;
+    border-bottom: 3px solid #575698;
+}
+
+article .botao2 {
+    border-radius: 5px;
+    padding: 8px;
+    width: 80px;
+    border: 2px solid #575698;
+    color: #575698;
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+article .botao2:hover {
+    background-color: #575698;
+    color: white;
+    font-size: 17px;
+}
+
+article .area_botao3 {
     background-color: white;
     width: 300px;
     height: 80px;
@@ -154,7 +182,7 @@ body {
     border-bottom: 3px solid #1E81D4;
 }
 
-.botao3 {
+article .botao3 {
     border-radius: 5px;
     padding: 8px;
     width: 80px;
@@ -164,42 +192,51 @@ body {
     font-weight: bold;
 }
 
-.botao3:hover {
+article .botao3:hover {
     background-color: #1E81D4;
     color: white;
     font-size: 17px;
 }
 
-.descricao {
+
+/*
+    CSS ÁREA DESCRIÇÃO ↴
+*/ 
+
+
+article .descricao {
     color: rgb(27, 27, 27);
     padding-bottom: 10px;
     padding-top: 10px;
     font-size: 14px;
 }
 
-.descricao:nth-child(2n+1) {
+article .descricao:nth-child(2n+1) {
     background-color: #F7F7F7;
 }
 
-.descricao:nth-child(2n) {
+article .descricao:nth-child(2n) {
     background-color: #FFFFFF
 }
 
-.planos a {
-    text-decoration: none;
-}
+
+/*
+    CSS ÁREA RESPONSIVA ↴
+*/ 
+
 
 @media (max-width: 600px) {
 
-    body {
-        background-image: url(https://luizfelipe9627.github.io/plan-page/images/fundo.jpg);
-    }
-    
-    .basico, .padrao{
+    /*
+    CSS ÁREA PLANOS ↴
+    */
+
+
+    article .basico, .padrao{
         padding-bottom: 50px;
     }
 
-    .premio {
+    article .premio {
         padding-bottom: 100px;
     }
 }
