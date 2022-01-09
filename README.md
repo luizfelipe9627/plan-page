@@ -1,7 +1,7 @@
 # Plan Page
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/plan-page/blob/master/images/plan-page.png" alt="Site de Planos">
+<img src="https://github.com/luizfelipe9627/plan-page/blob/master/images/plan-page.png" alt="Site">
 
 # Resumo
 Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade. Criado apenas para praticar conhecimentos em HTML5 e CSS3.
