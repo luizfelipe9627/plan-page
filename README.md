@@ -3,11 +3,11 @@
 
 <img src="https://github.com/luizfelipe9627/plan-page/blob/master/images/plan-page.png" alt="Site">
 
-# Resumo
+## 📄 Resumo
 Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade. Criado apenas para praticar conhecimentos em HTML5 e CSS3.
 
 
-# <a href="https://luizfelipe9627.github.io/plan-page">Acesse o site</a>
+## <a href="https://luizfelipe9627.github.io/plan-page">Acesse o site</a>
 
 ## ✔️ Tecnologias utilizadas
 
