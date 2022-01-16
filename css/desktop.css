@@ -216,22 +216,3 @@ article .descricao:nth-child(2n+1) {
 article .descricao:nth-child(2n) {
     background-color: #FFFFFF
 }
-
-/*
-    ÁREA RESPONSIVA ↴
-*/ 
-
-@media (max-width: 600px) {
-
-    /*
-        ÁREA PLANOS ↴
-    */
-
-    article .basico, .padrao{
-        padding-bottom: 50px;
-    }
-
-    article .premio {
-        padding-bottom: 100px;
-    }
-}
