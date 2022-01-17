@@ -8,6 +8,12 @@
         ÁREA PLANOS ↴
     */
 
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: none;
+    }
+
     .basico, .padrao{
         padding-bottom: 50px;
     }
