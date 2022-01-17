@@ -1,5 +1,5 @@
 /*
-    ÁREA RESPONSIVA ↴
+    ÁREA RESPONSIVA CELULAR ↴
 */ 
 
 @media (max-width: 600px) {
@@ -8,11 +8,11 @@
         ÁREA PLANOS ↴
     */
 
-    article .basico, .padrao{
+    .basico, .padrao{
         padding-bottom: 50px;
     }
 
-    article .premio {
+    .premio {
         padding-bottom: 100px;
     }
 }
