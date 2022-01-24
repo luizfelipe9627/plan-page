@@ -217,3 +217,18 @@ body {
 .descricao:nth-child(2n) {
     background-color: #FFFFFF
 }
+
+.created_by {
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.created_by a {
+    text-decoration: none;
+    color: white;
+}
+
+.created_by a:hover {
+    color: blue;
+}
