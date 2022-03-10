@@ -3,13 +3,16 @@
 
 <img src="https://github.com/luizfelipe9627/plan-page/blob/master/images/plan-page.png" alt="Site">
 
-## 📄 Resumo
-Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade. Criado apenas para praticar conhecimentos em HTML5 e CSS3.
+## 📄 Descrição
+Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade.
+
+## 📑 Observação
+Este layout foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
 
 
 ## <a href="https://luizfelipe9627.github.io/plan-page">Acesse o site</a>
 
-## ✔️ Tecnologias utilizadas
+## 💻 Tecnologias utilizadas
 
 - ``HTML5``
 - ``CSS3``
@@ -29,7 +32,7 @@ Uma área de planos na qual o usuário poderá ver a descrição de cada um dele
   </tr>
 </table>
 
-## 😄 Me siga nas redes sociais<br>
+## 📷 Me siga nas redes sociais<br>
 
 <p align="left">
   <a href="https://www.linkedin.com/in/luizfelipe9627/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
