@@ -7,7 +7,7 @@
 Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade.
 
 ## 📑 Observação
-Este layout foi criado como um exercicio que foi dado pelo Bonieky do B7WEB para praticar HTML5 e CSS3.
+Este layout foi criado como um exercicio para praticar HTML5 e CSS3.
 
 
 ### <a href="https://luizfelipe9627.github.io/plan-page">Acesse o site</a>
