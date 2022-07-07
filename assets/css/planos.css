@@ -1,0 +1,80 @@
+.planos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.basico, .padrao, .premio {
+  width: 18.75rem;
+  height: 28.125rem;
+  padding-right: 0.625rem;
+  margin-top: 10vh;
+}
+
+.titulo_top1, .titulo_top2, .titulo_top3 {
+  font-size: 1.5625rem;
+  font-weight: bold;
+  background-color: white;
+  text-align: center;
+  padding: 1.25rem 0;
+}
+
+.titulo_top1 {
+  border-top: 0.1875rem solid #6AC075;
+  color: #62C268;
+}
+
+.titulo_top2 {
+  border-top: 0.1875rem solid #575698;
+  color: #575698;
+}
+
+.titulo_top3 {
+  border-top: 0.1875rem solid #1E81D4;
+  color: #1E81D4;
+}
+
+.valor1, .valor2, .valor3 {
+  color: white;
+  font-size: 1.5625rem;
+  font-weight: bold;
+  padding: 0.4375rem 0;
+}
+
+.valor1 {
+  background-color: #62C268;
+}
+
+.valor2 {
+  background-color: #575698;
+}
+
+.valor3 {
+  background-color: #1E81D4;
+}
+
+.descricao {
+  color: rgb(27, 27, 27);
+  padding: 0.625rem 0;
+  font-size: 0.875rem;
+}
+
+.descricao:nth-child(odd) {
+  background-color: #F7F7F7;
+}
+
+.descricao:nth-child(even) {
+  background-color: #FFFFFF
+}
+
+@media (min-width: 320px) and (max-width: 940px) {
+  .basico, .padrao, .premio {
+    margin-top: 4.375rem;
+  }
+
+  .premio {
+    margin-bottom: 3.125rem;
+  }
+}

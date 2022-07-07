@@ -1,0 +1,71 @@
+.area_botao1, .area_botao2, .area_botao3 {
+  height: 5rem;
+  padding-top: 1.875rem;
+  background-color: #FFF;
+}
+
+.area_botao1 {
+  border-bottom: 0.1875rem solid #6AC075;
+}
+
+.area_botao2 {
+  border-bottom: 0.1875rem solid #575698;
+}
+
+.area_botao3 {
+  border-bottom: 0.1875rem solid #1E81D4;
+}
+
+.botao1, .botao2, .botao3 {
+  border-radius: 0.3125rem;
+  padding: 0.5rem;
+  width: 5rem;
+  margin: 0 6.25rem;
+  font-weight: bold;
+}
+
+.botao1 {
+  border: 0.125rem solid #62C268;
+}
+
+.botao2 {
+  border: 0.125rem solid #575698;
+}
+
+.botao3 {
+  border: 0.125rem solid #1E81D4;
+}
+
+.botao1 a {
+  color: #62C268;
+}
+
+.botao2 a {
+  color: #575698;
+}
+
+.botao3 a {
+  color: #1E81D4;
+}
+
+.botao1 a:hover, .botao2 a:hover, .botao3 a:hover {
+  color: #FFF;
+}
+
+.botao1:hover, .botao2:hover, .botao3:hover {
+  font-size: 1.0625rem;
+  transition: all ease 1s;
+  transform: translateY(-0.4375rem);
+}
+
+.botao1:hover {
+  background-color: #62C268;
+}
+
+.botao2:hover {
+  background-color: #575698;
+}
+
+.botao3:hover {
+  background-color: #1E81D4;
+}

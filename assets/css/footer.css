@@ -1,0 +1,19 @@
+.created_by {
+  text-align: center;
+  padding-top: 10vh;
+  font-weight: bold;
+}
+
+.created_by a {
+  color: white;
+}
+
+.created_by a:hover {
+  color: blue;
+}
+
+@media (min-width: 320px) and (max-width: 940px) {
+  .created_by {
+    padding: 0 0 1.25rem 0;
+}
+}
