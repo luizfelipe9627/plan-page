@@ -1,16 +1,15 @@
 # Plan Page
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)             
 
-<img src="https://github.com/luizfelipe9627/plan-page/blob/master/assets/images/plan-page.png" alt="Site">
+<img src="https://github.com/luizfelipe9627/plan-page/blob/master/assets/image/plan-page.png" alt="Apresentação do Plan page">
 
 ## 📄 Descrição
 Uma área de planos na qual o usuário poderá ver a descrição de cada um deles e escolher conforme sua necessidade.
 
 ## 📑 Observação
-Este layout foi criado como um exercicio para praticar HTML5 e CSS3.
+Este layout foi criado como um exercício para praticar HTML5 e CSS3.
 
-
-### <a href="https://luizfelipe9627.github.io/plan-page">Acesse o site</a>
+### <a href="https://luizfelipe9627-plan-page.netlify.app">Acesse o site</a>
 
 ## 💻 Tecnologias utilizadas
 
